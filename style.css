@@ -1,0 +1,400 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url("./img/z4205268320495_34c58ef2f6435f05ccedd1014f7e8f1a.jpg");
+  /* background-color: red; */
+ 
+
+}
+
+
+.section.has-bg-img:after {
+  opacity: 0;
+}
+
+
+
+
+.img-title{
+  width: 90%;
+  height: 100%;
+}
+
+.describe{
+  position: absolute;
+  top: 26%;
+  left: 4%;
+  width: 400px;
+  padding: 10px;
+  background: linear-gradient(-145deg, #82572F 5%, #C5904A, #dae06b);
+}
+.describe p{
+  max-width: 100%;
+}
+.describe h3{
+  font-size: 30px;
+}
+.btn-describe{
+  width: 250px;
+  height: 50px;
+  margin: 2%;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  overflow: auto;
+  background: linear-gradient(315deg, #090908 3%, #141412 38%, #f5f4f1 10%, black 98%);
+  animation: gradient 15s ease infinite;
+  background-size: 400% 400%;
+  color: white;
+  background-attachment: fixed;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 0%;
+  }
+  50% {
+      background-position: 100% 100%;
+  }
+  100% {
+      background-position: 0% 0%;
+  }
+}
+
+.container-banner{
+  background-color: black;
+  height: 100%;
+  padding-bottom: 5%;
+}
+
+
+.container-img{
+  text-align: center;
+}
+.neon{
+  margin-top: 5%;
+  font-size: 50px;
+  color: #F3D880;
+  font-family: 'Noto Sans Lao', sans-serif;
+  font-weight: 500;
+}
+.col-10{
+  margin: auto;
+  position: relative;
+}
+.content-container{
+  display: flex;
+  margin-top: 7%;
+  justify-content: center;
+}
+.content-1-container{
+  width: 60%;
+}
+.content-container h4{
+  color: #F3D880;
+  font-size: 30px;
+  margin-top: 2%;
+ 
+}
+.input-content{
+  margin-left: 5%;
+  text-align: center;
+}
+.content-container p{
+  color: rgb(213, 209, 209);
+  
+}
+.input{
+  width: 100%;
+  height: 50px;
+  margin-bottom: 10%;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.btn-input{
+  width: 250px;
+  height: 50px;
+  margin: 2%;
+  font-size: 15px;
+  background-color: #FFCD29;
+  border: none;
+  border-radius: 5px;
+  overflow: auto;
+  background: linear-gradient(315deg, #b19433 3%, #b1a31d 38%, #e8d5ad 10%, #baa52f 98%);
+  animation: gradient 15s ease infinite;
+  background-size: 400% 400%;
+  background-attachment: fixed;
+
+}  @keyframes gradient {
+      0% {
+          background-position: 0% 0%;
+      }
+      50% {
+          background-position: 100% 100%;
+      }
+      100% {
+          background-position: 0% 0%;
+      }
+  }
+.btn-send{
+  width: 250px;
+  height: 50px;
+  margin: 2%;
+  font-size: 15px;
+  background-color: #FFCD29;
+  border: none;
+  border-radius: 5px;
+  overflow: auto;
+  background: linear-gradient(315deg, #b19433 3%, #b1a31d 38%, #e8d5ad 10%, #baa52f 98%);
+  animation: gradient 15s ease infinite;
+  background-size: 400% 400%;
+  background-attachment: fixed;
+
+}  @keyframes gradient {
+      0% {
+          background-position: 0% 0%;
+      }
+      50% {
+          background-position: 100% 100%;
+      }
+      100% {
+          background-position: 0% 0%;
+      }
+  }
+.lorem{
+  font-size: 10px;
+  margin-top: 13%;
+}
+.title-2{
+  font-size: 10px;
+  color: #F3D880;
+  margin-top: 2%;
+}
+.describe{
+  position: absolute;
+  top: 25%;
+  left: 4%;
+  width: 500px;
+  padding: 10px;
+  background: linear-gradient(135deg, #82572F 5%, #C5904A, #dae06b);
+  
+}
+.describe p{
+  max-width: 100%;
+}
+.describe h3{
+  font-size: 30px;
+}
+.btn-describe{
+  width: 250px;
+  height: 50px;
+  margin: 2%;
+  font-size: 15px;
+ 
+  border: none;
+  border-radius: 5px;
+  overflow: auto;
+  background: linear-gradient(315deg, #090908 3%, #141412 38%, #f5f4f1 10%, black 98%);
+  animation: gradient 15s ease infinite;
+  background-size: 400% 400%;
+  color: white;
+  background-attachment: fixed;
+
+}  @keyframes gradient {
+      0% {
+          background-position: 0% 0%;
+      }
+      50% {
+          background-position: 100% 100%;
+      }
+      100% {
+          background-position: 0% 0%;
+      }
+  }
+
+  .header{
+    background-color: black;
+  }
+
+  .container-img{
+    text-align: center;
+  }
+  .col-10{
+    margin: auto;
+    position: relative;
+  }
+  .content-container{
+    display: flex;
+    margin-top: 7%;
+  }
+  .content-1-container{
+    width: 60%;
+  }
+  .content-container h4{
+    color: #F3D880;
+    font-size: 30px;
+    margin-top: 2%;
+   
+  }
+  .input-content{
+    margin-left: 5%;
+    text-align: center;
+  }
+  .content-container p{
+    color: rgb(213, 209, 209);
+    
+  }
+  .input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10%;
+    padding-left: 10px;
+    font-size: 20px;
+  }
+  
+  .btn-input{
+    width: 250px;
+    height: 50px;
+    margin: 2%;
+    font-size: 15px;
+    background-color: #FFCD29;
+    border: none;
+    border-radius: 5px;
+    overflow: auto;
+    background: linear-gradient(315deg, #b19433 3%, #b1a31d 38%, #e8d5ad 10%, #baa52f 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+  
+  }  @keyframes gradient {
+        0% {
+            background-position: 0% 0%;
+        }
+        50% {
+            background-position: 100% 100%;
+        }
+        100% {
+            background-position: 0% 0%;
+        }
+    }
+  .btn-send{
+    width: 250px;
+    height: 50px;
+    margin: 2%;
+    font-size: 15px;
+    background-color: #FFCD29;
+    border: none;
+    border-radius: 5px;
+    overflow: auto;
+    background: linear-gradient(315deg, #b19433 3%, #b1a31d 38%, #e8d5ad 10%, #baa52f 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+  
+  }  @keyframes gradient {
+        0% {
+            background-position: 0% 0%;
+        }
+        50% {
+            background-position: 100% 100%;
+        }
+        100% {
+            background-position: 0% 0%;
+        }
+    }
+  .lorem{
+    font-size: 10px;
+    margin-top: 13%;
+  }
+  .title-2{
+    font-size: 10px;
+    color: #F3D880;
+    margin-top: 2%;
+  }
+  
+  .btn-describe{
+    width: 250px;
+    height: 50px;
+    margin: 2%;
+    font-size: 15px;
+   
+    border: none;
+    border-radius: 5px;
+    overflow: auto;
+    background: linear-gradient(315deg, #090908 3%, #141412 38%, #f5f4f1 10%, black 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    color: white;
+    background-attachment: fixed;
+  
+  }  @keyframes gradient {
+        0% {
+            background-position: 0% 0%;
+        }
+        50% {
+            background-position: 100% 100%;
+        }
+        100% {
+            background-position: 0% 0%;
+        }
+    }
+  
+    .content-last-banner{
+      width: 100%;
+    }
+
+    .section-content{
+      padding: 0 5%;
+    }
+
+    .title-2{
+      font-size: 20px;
+    }
+
+  
+
+    .animation-text{
+      position: absolute;
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+      color: #012b4d05;
+  }
+  
+  .animation-text::before{
+      content: attr(data-text);
+      position: absolute;
+      color: #fff;
+      width: 100px;
+      overflow: hidden;
+      white-space: nowrap;
+      border-right: 4px solid #fff;
+      animation: animate 8s linear infinite;
+  }
+  
+  @keyframes animate {
+      0%, 10%, 100% {
+          width: 0;
+      }
+      70%, 90% {
+          width: 100%;
+      }
+  }
+
+
+
+
+  .section-top{
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+   
+      background: rgba(33, 37, 41, 0.95);
+      position: relative;
+      color: #fff;
+
+  }
+ 
