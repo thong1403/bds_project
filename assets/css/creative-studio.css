@@ -11907,7 +11907,7 @@ section.has-bg-img:after {
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
-  opacity: 0.1;
+  opacity: 0.2;
 }
 
 section.has-bg-img.bg-img-1:after {
